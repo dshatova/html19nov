@@ -1,0 +1,23 @@
+
+	    div{
+			float:left;
+		background-color:red; color:white}
+		
+		.red{
+		background-color:red}
+	    
+		.black{
+		background-color:black} 
+		
+		.size{
+		height:50px; width:50px}
+		
+		.big{
+		height:100px; width:100px}
+		
+		.red:hover{
+		background-color:blue}
+		
+		.black:hover{
+		background-color:orange}
+		
