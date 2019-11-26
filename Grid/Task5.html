@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	<style>
+    .container{
+	display:grid;
+	grid-template-columns: 50px 50px 50px; grid-template-rows: 50px 50px 50px
+	}
+    .longcontainer{
+	grid-column-end: span 3; background-color:red}
+	div div{background-color: black; color:white}
+	</style>
+	</head>
+	<body>
+	<div class="container">
+	<div class="longcontainer">1</div>
+	<div>2</div>
+	<div style="background-color:green">3</div>
+	<div>4</div>
+	<div class="longcontainer">5</div>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	</head>
+	<style>
+    .container{
+	display:grid;
+	grid-template-columns: 50px 50px 50px; grid-template-rows: 50px 50px;
+	padding:10px
+	}
+	div:nth-child(2n){grid-column-start: 3}
+	div{background-color:red; color:white}
+	.fs{background-color:black}
+	.thf{background-color:green}
+	.f{background-color:black; height:100px; width:100px; float:left}
+	</style>
+	<body>
+	<div class="container" style="float:left">
+	<div class="fs">1</div>
+	<div class="fs">2</div>
+	<div class="thf">3</div>
+	<div class="thf">4</div>
+	</div>
+	<div class="f">5</div>
+	</body>
+</html>

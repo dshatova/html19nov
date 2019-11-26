@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	</head>
+	<style>
+    .container{
+	display:grid;
+	grid-template-columns: 50px 50px; grid-template-rows: 50px 100px 50px
+	}
+	.bigcontainer{
+	grid-area: 2 / 1 / 2 / span 2}
+	div div{
+	background-color: black; color:white}
+	div div:first-child {background-color:red}
+	div div:last-child {background-color:red}
+	</style>
+	<body>
+	<div class="container">
+	<div>1</div>
+	<div>2</div>
+	<div class="bigcontainer">3</div>
+	<div>4</div>
+	<div>5</div>
+	</div>
+	</body>
+</html>
