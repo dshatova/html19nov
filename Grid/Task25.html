@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	</head>
+	<style>
+    .container{
+	display:grid;
+	grid-template-columns: 150px 50px 50px; grid-template-rows: 50px 50px 50px
+	}
+	.bigcontainer{
+	grid-column-start: 1; grid-row-start: 1; grid-row-end: span 3;}
+    .sec{
+    grid-column-start: 2; grid-row-end: span 2; background-color: green;
+    }
+    .f{
+    grid-column-start: 3; grid-row-start: 2; grid-row-end: span 3;
+    }
+    .container div:first-child {background-color:red}
+	.container div:last-child {background-color:red}
+	div div{
+	background-color: black; color:white}
+	</style>
+	<body>
+	<div class="container">
+	<div class="bigcontainer">1</div>
+	<div class="sec">2</div>
+	<div>3</div>
+    <div>4</div>
+    <div class="f">5</div>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	<style>
+    .container{
+	display:grid;
+	grid-template-columns: 50px 50px 50px; grid-template-rows: 50px 100px 150px;
+    color: white
+    }
+	.container div:nth-child(2n){
+	background-color:black}
+	.container div:nth-child(2n+1){
+	background-color:red}
+    .bigcontainer{
+    grid-row-start: 2; grid-column-end: span 2
+    }
+    .thebiggestcontainer{
+    grid-row-start: 3; grid-column-end: span 3;
+    }
+	</style>
+	</head>
+	<body>
+	<div class="container">
+	<div>1</div>
+	<div class="bigcontainer">2</div>
+	<div class="thebiggestcontainer">3</div>
+	</div>
+	</body>
+</html>
