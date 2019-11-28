@@ -1,0 +1,79 @@
+@light-blue: #C4D3E4;
+@bright-blue: #2B7DE3;
+@orange: #FFBF47;
+@headerfooterheight: 40px;
+@salaryheight:60px;
+@jobnameheight: 50pt;
+@bheight: 25pt;
+@salarymrgn: 20px;
+@numberheight: 12pt;
+@phonemrgn: 10px;
+@slr: 25pt;
+
+.first{
+background: radial-gradient(@orange 25%, white 81%); height:@headerfooterheight + @headerfooterheight + @salaryheight + @salarymrgn + @jobnameheight + @bheight*2 + @numberheight + @phonemrgn*2 + @slr;
+width:320px;
+border:2px solid grey;
+
+    .headerfooter{
+    background-color: @light-blue;
+    margin: 0px 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: @headerfooterheight;
+    width: 280px;
+    border: 2px solid #3D5C7F;
+	}
+}
+
+.second{
+background: radial-gradient(@orange 25%, white 81%); height:350px;
+width:320px;
+border:2px solid grey;
+
+    .headerfooter{
+    background-color: @orange;
+    margin: 0px 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 280px;
+    border: 2px solid #3D5C7F;
+	}
+}
+
+.jobname{
+font-size:@jobnameheight;
+font-family: Arial, Helvetica, sans-serif;
+text-shadow:2px 0 0 #FFF, -2px 0 0 #FFF, 0 2px 0 #FFF, 0 -2px 0 #FFF;
+}
+
+.b{text-decoration: underline;
+text-align: center;
+font-size: @bheight;
+font-family: Arial, Helvetica, sans-serif; 
+text-shadow:2px 0 0 #FFF, -2px 0 0 #FFF, 0 2px 0 #FFF, 0 -2px 0 #FFF;
+}
+
+.salary{
+ margin: @salarymrgn 0px 0px 0px;
+ background-color:#2B7DE3;
+ font-family: Arial, Helvetica, sans-serif; 
+ color:white;
+ height:@salaryheight;
+ text-align:center;
+   span{
+ font-size:25pt;
+ font-family:Arial;
+ }
+ 
+ }
+ 
+
+ .phone{margin: @phonemrgn 0px @phonemrgn 0px; font-size:10pt; font-family:Arial; text-align:center;}
+ 
+ .number{
+ font-size: @numberheight;
+ }
+
+ 

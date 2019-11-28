@@ -1,0 +1,22 @@
+	%size{
+	height:50px;
+	width: 50px;
+	color: white;
+	float: left;
+	font-size: 10pt;	
+	}
+	
+	.red{
+	    @extend %size;
+		background-color:red;
+		}
+	    
+	.black{
+	    @extend %size;
+		background-color:black} 
+		
+	.red:hover{
+		background-color:blue}
+		
+	.black:hover{
+		background-color:orange}	
