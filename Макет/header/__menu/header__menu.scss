@@ -1,0 +1,27 @@
+.header__menu{
+font-size: 12pt;
+padding: 45px 65px 0px 0px;
+}
+.header__menu ul{
+display: flex;
+list-style-type: none;
+float:right;
+   li{
+   	padding: 5px 0px 5px 5px;
+	a{ 
+    text-decoration: none;
+    color: white;
+    }
+    a:hover{ 
+    text-decoration: none;
+    color: #03a8e6;
+    }
+	}
+    li:after{
+	content:" -- ";
+	}
+	li:last-child:after{
+	content:"";
+	}
+}
+

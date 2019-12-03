@@ -1,0 +1,129 @@
+    .container{
+    display:grid;
+    grid-template-columns: 60px 2fr 1fr 2fr 1fr 2fr 60px;
+    grid-template-rows: 1fr;
+    background-color: #00aeef;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+
+    .lowercontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+     margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+
+    .footer{
+    color: #888888;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+
+    .nav:hover{
+    color: #03a8e6;
+    }
+
+    h1{
+    color: #333333;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-stretch: expanded;
+    font-size: 30pt;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+
+    .spanone{
+    color: #bbbbbb;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 350;
+    font-stretch: extra-condensed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+
+    .divtwo{
+    color: #555555;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20pt;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0px 0px 2% 0px;
+    width: 100%;
+    }
+
+    .names{
+    font-size: 25pt;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+     }
+
+    .info{
+    font-size: 12pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5% 5% 5% 5%;
+    }
+
+    .button{
+      font-size: 12pt;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      padding: 2% 0px 2% 15%;
+      background-color: #0076a3;
+      border: 2px solid #15627e;
+    }
+    .button:hover{
+    background-color: #005d81;
+    }
+    .horizontaldottedline{
+    display : flex;
+	widht:auto;
+    } 
+    .dot{
+    flex: 1;
+    border-bottom: 3px dotted #cccccc;
+    height: 0.6em;
+    }
+    .dotone{
+    flex: 1;
+    border-bottom: 3px dotted white;
+    height: 0.6em;
+    }
+    a{ 
+    text-decoration: none;
+    color: white;
+    }
+    a:hover{ 
+    text-decoration: none;
+    color: white;
+    }
+	li:after{
+	content:" -- ";
+	}
+	li:last-child:after{
+	content:"";
+	}
+	li{
+	padding: 5px 0px 5px 5px;
+	}
+    h3{
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    }
+    .inform{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  #555555;
+    font-size: 11pt;
+    }
+
+    .vertical { 
+    border-left: 3px dotted #cccccc; 
+    height: auto; }

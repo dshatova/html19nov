@@ -1,0 +1,12 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 95px;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #333333;
+    color: white;
+    font-size: 30pt;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }

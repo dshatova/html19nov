@@ -1,3 +1,16 @@
+.headercontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 95px;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #333333;
+  color: white;
+  font-size: 30pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 .container {
   display: grid;
   grid-template-columns: 60px 2fr 1fr 2fr 1fr 2fr 60px;
@@ -13,6 +26,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  padding: 0px 0px 0px 5%;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -140,7 +154,7 @@ h3 {
   height: auto;
 }
 
-.header {
+.headercontainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 95px;
@@ -153,36 +167,35 @@ h3 {
   width: 100%;
 }
 
-.header__name {
+.headcontainer__name {
   padding: 25px 0px 25px 65px;
 }
 
-.header__menu {
+.headcontainer__menu {
   font-size: 12pt;
   padding: 45px 65px 0px 0px;
 }
 
-.header__menu ul {
+.headcontainer__menu ul {
   display: flex;
   list-style-type: none;
-  float: right;
 }
-.header__menu ul li {
-  padding: 5px 0px 5px 5px;
-}
-.header__menu ul li a {
+.headcontainer__menu ul li a {
   text-decoration: none;
   color: white;
 }
-.header__menu ul li a:hover {
+.headcontainer__menu ul li a:hover {
   text-decoration: none;
   color: #03a8e6;
 }
-.header__menu ul li:after {
+.headcontainer__menu ul li li:after {
   content: " -- ";
 }
-.header__menu ul li:last-child:after {
+.headcontainer__menu ul li li:last-child:after {
   content: "";
 }
+.headcontainer__menu ul li li {
+  padding: 5px 0px 5px 5px;
+}
 
-/*# sourceMappingURL=Maket.min.css.map */
+/*# sourceMappingURL=Project.css.map */
