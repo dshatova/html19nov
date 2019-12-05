@@ -1,0 +1,184 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 95px;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #333333;
+  color: white;
+  font-size: 30pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.header__name {
+  padding: 25px 0px 25px 65px;
+}
+
+.header__menu {
+  font-size: 12pt;
+  padding: 45px 65px 0px 0px;
+}
+
+.header__menu ul {
+  display: flex;
+  list-style-type: none;
+  float: right;
+}
+.header__menu ul li {
+  padding: 5px 0px 5px 5px;
+}
+.header__menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+.header__menu ul li a:hover {
+  text-decoration: none;
+  color: #03a8e6;
+}
+.header__menu ul li:after {
+  content: " -- ";
+}
+.header__menu ul li:last-child:after {
+  content: "";
+}
+
+.full {
+  padding: 0px 10% 0px 10%;
+}
+
+h1 {
+  color: #333333;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-stretch: expanded;
+  font-size: 30pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.title__and {
+  color: #00bff3;
+}
+
+.title__end {
+  color: #bbbbbb;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 350;
+  font-size: 40px;
+  font-stretch: extra-condensed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.title__info {
+  color: #555555;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 2% 0px 2% 0px;
+  border-bottom: 3px dotted #cccccc;
+  border-top: 3px dotted #cccccc;
+}
+
+.container {
+  padding: 5% 5% 5% 5%;
+  text-align: center;
+  background-color: #00aeef;
+  box-shadow: 2px 2px 4px grey;
+}
+
+.container__names {
+  font-size: 25pt;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  border-bottom: 3px dotted white;
+  padding: 0px 0px 2% 0px;
+}
+
+.container__info {
+  font-size: 12pt;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 5% 5% 5% 5%;
+  padding: 15px 0px 25px 0px;
+  text-align: center;
+}
+
+.container__button {
+  font-size: 12pt;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 2% 10% 2% 10%;
+  background-color: #0076a3;
+  border: 2px solid #15627e;
+}
+.container__button a {
+  text-decoration: none;
+  color: white;
+}
+
+.lowercontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+  margin: 15px 0px 15px 0px;
+}
+
+.lowercontainer__info {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #555555;
+  font-size: 11pt;
+  padding: 0 0 8px 0;
+}
+
+.lowercontainer__image {
+  float: left;
+  background-color: #cccccc;
+  width: 80px;
+  height: 80px;
+  margin: 0px 2% 0px 2%;
+}
+
+h3 {
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  margin-block-start: 0;
+}
+
+.lowercontainer__company {
+  color: #00aeef;
+}
+
+.lowercontainer__author {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #555555;
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+.lowercontainer__size {
+  height: 100px;
+}
+
+.lowercontainer__cell {
+  border-right: 3px dotted #cccccc;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 10%;
+  color: white;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 600px;
+  padding: 4% 0px 4% 0px;
+  border-bottom: 3px dotted #cccccc;
+}
+
+/*# sourceMappingURL=Maket.css.map */

@@ -1,12 +1,6 @@
 .container {
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr 1fr 2fr;
-    grid-template-rows: 1fr;
-    background-color: #00aeef;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 1200px;
-    min-width: 600px;
+	 padding: 5% 5% 5% 5%;
+	 text-align: center;
+	 background-color: #00aeef;
+	 box-shadow: 2px 2px 4px grey;
 }

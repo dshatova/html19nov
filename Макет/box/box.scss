@@ -1,0 +1,12 @@
+.box{
+  display: grid;
+  grid-template-columns: 2fr  2fr  2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 10%;
+  color: white;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 600px;
+  padding: 4% 0px 4% 0px;
+  border-bottom: 3px dotted #cccccc;
+  }

@@ -1,7 +1,11 @@
 .container__button{
     font-size: 12pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 2% 0px 2% 15%;
+    padding: 2% 10% 2% 10%;
     background-color: #0076a3;
     border: 2px solid #15627e;
+	a {
+	text-decoration: none;
+    color: white;
+	}
 }
